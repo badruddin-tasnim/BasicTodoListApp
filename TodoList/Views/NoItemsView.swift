@@ -17,7 +17,7 @@ struct NoItemsView: View {
                 Text("There is no items here")
                     .font(.title)
                     .fontWeight(.semibold)
-                Text("Are you a productive person? Add new task now and plan your day!")
+                Text("Make  your day productive! Add new task now and plan your day!")
                 NavigationLink("Add Something", destination: AddView())
                     .foregroundStyle(.white)
                     .font(.headline)
